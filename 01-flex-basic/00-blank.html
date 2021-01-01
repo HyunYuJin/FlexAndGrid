@@ -6,8 +6,44 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>CSS Flex</title>
 	<link rel="stylesheet" href="default.css">
+	<style>
+		/* .flex-container {
+			height: 300px;
+			display: flex;
+			flex-direction: column;
+
+			justify-content: center;
+			align-items: center;
+		} */
+
+		/* 반응형 가로 사이즈가 600px 이하의 경우 */
+		/* @media (min-width: 600px) {
+			.flex-container {
+				flex-direction: row;
+			}
+
+			.flex-item {
+				flex: 1;
+			}
+		} */
+
+		/* .flex-container {
+			height: 300px;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+		} */
+
+		.flex-container {
+			display: flex;
+		}
+	</style>
 </head>
 <body>
-	
+	<div class="flex-container">
+		<div class="flex-item">AAAAAAAA</div>
+		<div class="flex-item">BBBBBB</div>
+		<div class="flex-item">CCC</div>
+	</div>
 </body>
 </html>
