@@ -1,0 +1,137 @@
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 80px;
+  padding: 0 1rem;
+}
+
+.website-title {
+  font-size: 1.1rem;
+}
+
+.search-form {
+  width: 300px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+/* primary */
+.primary {
+  padding: 1rem;
+}
+
+/* secondary */
+.secondary {
+  padding: 1rem;
+}
+
+.secondary-a {
+  background: #FFFFFF;
+}
+
+.secondary-b {
+  color: #FFFFFF;
+  background: #666666;
+}
+
+/* footer */
+footer {
+  padding: 1rem;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+
+/* modal */
+.modal {
+	display: none;
+	top: 80px;
+}
+
+#modal-switch:checked ~ .modal {
+  display: flex;
+}
+
+label[for='modal-switch'] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 1.3rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+label[for="modal-switch"]:before {
+  content: '✉';
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#modal-switch:checked ~ label[for='modal-switch']:before {
+  color: dodgerblue;
+}
+
+#modal-switch, label[for='modal-switch'] span {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+@media (min-width: 1024px) {
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .website-title {
+    font-size: 1.6rem;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .secondary {
+    width: 20%;
+  }
+
+  .secondary-a {
+    order: 1;
+  }
+
+  .secondary-b {
+    order: 3;
+  }
+
+  .primary {
+    width: 60%;
+    order: 3;
+  }
+
+  .footer {
+    order: 4;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .secondary {
+    width: 300px;
+  }
+
+  .primary {
+    width: calc(100% - 600px);
+  }
+}
