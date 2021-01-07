@@ -4,7 +4,7 @@ Flex와 Grid는 기존의 배치에 사용했던 float, inline-block, block 등�
 * Flex: **한방향 레이아웃** 시스템이라 1차원이다. <br>
 * Grid: **두방향(가로-세로) 레이아웃** 시스템이라 2차원이다. <br>
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `**Flex보다 Grid가 더욱 막강하지만 사용이 좀 더 어렵다.**`
+**Flex보다 Grid가 더욱 막강하지만 사용이 좀 더 어렵다.🙊**
 
 ## Flex와 Grid 사용
 Grid로 전체 레이아웃 틀을 구성하고, <br>
