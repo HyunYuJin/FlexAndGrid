@@ -22,7 +22,7 @@ Flex로 내부 요소들을 배치하는데 많이 사용한다.
 
 ## Grid를 사용하여 3D Board Game 만들기
 <img width="945" alt="스크린샷 2021-01-07 오후 3 32 43" src="https://user-images.githubusercontent.com/38209966/103859687-d119a980-50fd-11eb-91d9-afce2c2e0405.png">
-<br>
+
 1. grid-container와 grid-items의 적절한 배치
 2. input radio와 label을 이용한 위치 선택
 3. 해당 label before에 이미지 삽입
