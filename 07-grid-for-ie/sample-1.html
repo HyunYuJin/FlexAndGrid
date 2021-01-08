@@ -16,12 +16,12 @@
 		/* gap: 1rem; */
 	}
 	.header {
-		-ms-grid-column: 2;
-		-ms-grid-column-span: 2;
-		grid-column: 2 / span 2;
-		-ms-grid-row: 1;
-		grid-row: 1;
-		margin: 0 0 1rem 1rem;
+		-ms-grid-column: 2; /* column 시작 위치 */
+		-ms-grid-column-span: 2; /* column 몇칸을 차지할 것인지 */
+		grid-column: 2 / span 2; /* 표준: 2번부터 2칸을 차지한다. */
+		-ms-grid-row: 1; /* row 시작 위치 - 기본값이 1이기 때문에 굳이 -ms-grid-row-span을 써주지 않는다. */
+		grid-row: 1; /* 표준: 1번부터 1칸(기본값) 차지 */
+		margin: 0 0 1rem 1rem; /* ms에서는 gap을 지원하지 않기 때문에 다음처럼 처리해준다. */
 	}
 	.sidebar-a {
 		-ms-grid-column: 1;
